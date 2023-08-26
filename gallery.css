@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Montserrat+Alternates:ital,wght@0,500;0,600;1,500;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 150vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+}
+.gallery-container{
+    background-color: gray;
+    width: 100%;
+    min-height: 870px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gallery-container >* {
+    width: 400px;
+    height: 500px;
+    background-color: coral;
+   
+}
+
+.login-back a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
